@@ -2,9 +2,9 @@ import os
 import json
 import base64
 
-path = "I:\\yolov5-master\\run\\exp-seg"  # directory that contain yolo txt file
-label = ['person', 'bicycle']  # label name here
-poly_point = 10  # the higher the number, the lesser the polygon point (!even number only)
+path = "I:\\yolov5-master\\run\\exp-seg"  # directory path that contains yolo txt file
+label = ['person', 'bicycle']  # label names here
+poly_point = 10  # the higher the number, the lesser the polygon point (!even numbers only)
 img_width = 1280  # img size
 img_height = 720
 
